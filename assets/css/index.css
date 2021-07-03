@@ -1,0 +1,9 @@
+body{
+    background-color: #F7B733;
+}
+/* right panel */
+.search-panel{
+    height: 520px;
+    border-radius: 5%;
+    box-shadow: 1px 0px 19px 12px #b5580866;
+}
