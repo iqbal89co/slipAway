@@ -1,19 +1,126 @@
-body{
-    background-color: #F7B733;
+body {
+    background-color: #C1FBA4;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
-a{
+
+a {
     text-decoration: none;
     color: unset;
 }
-a:hover{
+
+a:hover {
     color: unset;
 }
+
+
+/* left panel */
+.photo-banner {
+    height: 100vh;
+    background-image: url('../img/vacation.jpg');
+    width: 200vh;
+    background-size: contain;
+    filter: brightness(0.8);
+}
+
+.left-side {
+    height: 100vh;
+}
+
+.quotes {
+    color: white;
+    font-size: 41px;
+    margin: 20px;
+}
+
+.quotes b {
+    font-weight: 900;
+}
+
 /* right panel */
-.search-panel{
+.search-panel {
     height: 100vh;
     border-radius: 5%;
-    box-shadow: 1px 0px 19px 12px #b5580866;
+    box-shadow: 1px 0px 19px 12px #20202066;
     border-bottom-right-radius: 0%;
     border-top-right-radius: 0%;
+}
+
+/* card wisata */
+.wrapper {
+    max-width: 250px;
+}
+
+
+/**
+ * Helpers
+ */
+.border-tlr-radius {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.radius {
+    border-radius: 2px;
+}
+
+.padding-tb {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+
+.list__wisata .card:hover{
+    box-shadow: 0px 4px 20px #00000029;
+    cursor: pointer;
+}
+.card {
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+    border-radius: 10%;
+    transition: 0.3s ease-in;
+}
+
+.card__padding {
+    padding: 0.6rem;
+}
+
+.card__image {
+    min-height: 100px;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+
+.card__image img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.card__content {
+    position: relative;
+}
+
+/* card meta */
+.card__meta time {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-left: 0.8rem;
+}
+
+/* card article */
+.card__article a {
+    text-decoration: none;
+    color: #444;
+    transition: all 0.5s ease;
+}
+
+.card__article a:hover {
+    color: #2980b9;
 }
