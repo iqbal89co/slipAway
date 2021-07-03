@@ -1,9 +1,19 @@
 body{
     background-color: #F7B733;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
 }
 /* right panel */
 .search-panel{
-    height: 520px;
+    height: 100vh;
     border-radius: 5%;
     box-shadow: 1px 0px 19px 12px #b5580866;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
 }
