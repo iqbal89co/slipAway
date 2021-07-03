@@ -48,9 +48,32 @@
         </div>
     </nav>
 </header>
-
-<!-- search card -->
-
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-block w-100 carousel-image" style="background-image: url('https://res.cloudinary.com/wegowordpress/image/upload/f_auto,q_auto/v1569570190/shutterstock_1239418129_dojbvc.jpg');" height="400" alt="First slide" ></div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block w-100 carousel-image" style="background-image: url('https://th.bing.com/th/id/OIP.wASc_etw3jA2iQhWrdbEgQHaEH?pid=divDet&w=575&h=320&rs=1');" height="400" alt="Second slide"></div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block w-100 carousel-image" style="background-image: url('https://th.bing.com/th/id/OIP.AaxBuZ8LFB8Mqc75AK8yKQHaE8?pid=ImgDet&w=3000&h=2000&rs=1');" height="400" alt="Third slide"></div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 <!-- footer -->
 <footer class="footer">
@@ -89,7 +112,7 @@
     </div>
 
   </footer>
-  
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -102,6 +125,10 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
             <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+            <script>
+                $('.carousel').carousel()
+            </script>
 </body>
 
 </html>
