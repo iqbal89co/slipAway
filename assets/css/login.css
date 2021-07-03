@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.form-control:focus {
+    text-decoration: none;
+    border-color: none !important;
+    box-shadow: none;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.log-btn {
+    background-color: #FF85A3;
+    color: whitesmoke;
+    border: none;
+    transition: 0.4s;
+}
+
+.log-btn:hover {
+    background-color: #DE3F67;
+    border: none;
+    text-decoration: none;
+}
+
+.reg-link {
+    text-decoration: none;
+    color: #FF85A3;
+    transition: 0.4s;
+}
+
+.reg-link:hover {
+    text-decoration: none;
+    color: #DE3F67;
+}
