@@ -5,6 +5,7 @@
     font-family: 'Poppins';
 }
 
+/* Login page */
 .form-control:focus {
     text-decoration: none;
     border-color: none !important;
@@ -15,14 +16,14 @@
     height: 50px;
 }
 
-.log-btn {
+.cust-btn {
     background-color: #FF85A3;
     color: whitesmoke;
     border: none;
     transition: 0.4s;
 }
 
-.log-btn:hover {
+.cust-btn:hover {
     background-color: #DE3F67;
     border: none;
     text-decoration: none;
@@ -37,4 +38,13 @@
 .reg-link:hover {
     text-decoration: none;
     color: #DE3F67;
+}
+
+/* Sing Up page */
+.baby-txt {
+    color: #FF85A3;
+}
+
+.moon-txt {
+    color: #7BF1A8;
 }
