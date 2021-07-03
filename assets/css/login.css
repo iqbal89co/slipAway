@@ -27,3 +27,14 @@
     border: none;
     text-decoration: none;
 }
+
+.reg-link {
+    text-decoration: none;
+    color: #FF85A3;
+    transition: 0.4s;
+}
+
+.reg-link:hover {
+    text-decoration: none;
+    color: #DE3F67;
+}
