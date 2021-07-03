@@ -13,6 +13,27 @@ a:hover {
     color: unset;
 }
 
+/* tracj bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 /* left panel */
 .photo-banner {
@@ -38,6 +59,9 @@ a:hover {
 }
 
 /* right panel */
+.navbar ul{
+    flex-direction: row !important;
+}
 .search-panel {
     height: 100vh;
     border-radius: 5%;
@@ -47,14 +71,13 @@ a:hover {
 }
 
 /* card wisata */
+.list__wisata{
+    display: flex;
+    overflow: auto;
+}
 .wrapper {
     max-width: 250px;
 }
-
-
-/**
- * Helpers
- */
 .border-tlr-radius {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -106,15 +129,20 @@ a:hover {
 .card__content {
     position: relative;
 }
+.card__content .rate{
+    color: rgb(255, 208, 0);
+}
+.card__content .info{
+    font-size: small;
+    color: yellowgreen;
+}
 
-/* card meta */
 .card__meta time {
     font-size: 1.5rem;
     color: #bbb;
     margin-left: 0.8rem;
 }
 
-/* card article */
 .card__article a {
     text-decoration: none;
     color: #444;
