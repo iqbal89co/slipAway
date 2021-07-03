@@ -31,7 +31,7 @@
 <body>
     <div class="photo-banner position-absolute">
     </div>
-    <div class="row w-100 p-0">
+    <div class="row w-100 p-0 m-0">
         <div class="col-sm-12 col-lg-6 left-side">
             <div class="logo m-3">
                 <img class="" src="assets/img/logo.png" alt="" width="200">
@@ -39,7 +39,7 @@
 
             <div class="quotes my-5">
                 <h1 class="">
-                    Nikmati Liburan Aman dan Nyaman Bersama <b>BABYMOON</b>
+                    Enjoy a Safe and Comfortable Vacation with <b>BABYMOON</b>
                 </h1>
             </div>
         </div>
@@ -51,14 +51,47 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item ml-3">
-                            <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                     <a href=""><i class="fas fa-search"></i></a>
                 </nav>
+
+                <div class="search-filter">
+                    <div class="m-3 card">
+                        <form class="m-3">
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <select id="inputState" class="form-control">
+                                        <option selected disabled>City</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <select id="inputPlace" class="form-control">
+                                        <option selected disabled>Type</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Check me out
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary text-right ml-auto">Search</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
                 <div class="explore ml-5 my-3">
                     <h2>Popular</h2>
-
                     <div class=" list__wisata">
                         <div class="col-4 pr-0">
                             <div class="wrapper">
@@ -198,12 +231,84 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
+        <div class="container benefit py-5">
+            <h1 class="">Safe Vacation</h1>
+            <div class="row my-5">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body p-2">
+                            <img class="float-center mb-4" src="assets/img/corona-safe.png" alt="" width="100">
+                            <h6>Menjamin Protokol Kesehatan</h6>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body p-2">
+                            <img class="float-center mb-4" src="assets/img/corona-safe.png" alt="" width="100">
+                            <h6>Menjamin Protokol Kesehatan</h6>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body p-2">
+                            <img class="float-center mb-4" src="assets/img/corona-safe.png" alt="" width="100">
+                            <h6>Menjamin Protokol Kesehatan</h6>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card text-center justify-content-center">
+                        <div class="card-body p-2">
+                            <img class="float-center mb-4" src="assets/img/corona-safe.png" alt="" width="100">
+                            <h6>Menjamin Protokol Kesehatan</h6>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- footer -->
+<footer class="footer">
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a href="#">Home</a> ·
+        <a href="#">About</a> ·
+        <a href="#">Pricing</a> ·
+        <a href="#">About</a> ·
+        <a href="#">Faq</a> ·
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name text-light">Babymoon &copy; 2021</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>21 Revolution Street</span> Rutland, VT</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>911</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">support@company.com</a></p>
+      </div>
+
+    </div>
+
+  </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

@@ -1,5 +1,4 @@
 body {
-    background-color: #C1FBA4;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -63,11 +62,12 @@ a:hover {
     flex-direction: row !important;
 }
 .search-panel {
-    height: 100vh;
+    height: fit-content;
     border-radius: 5%;
     box-shadow: 1px 0px 19px 12px #20202066;
     border-bottom-right-radius: 0%;
     border-top-right-radius: 0%;
+    min-height: 100vh;
 }
 
 /* card wisata */
@@ -101,7 +101,7 @@ a:hover {
     box-shadow: 0px 4px 20px #00000029;
     cursor: pointer;
 }
-.card {
+.list__wisata .card {
     background-color: #fff;
     margin-bottom: 1.6rem;
     border-radius: 10%;
@@ -152,3 +152,174 @@ a:hover {
 .card__article a:hover {
     color: #2980b9;
 }
+
+/* benefit */
+.benefit .card{
+    height: fit-content;
+    width:  100%;
+    box-shadow: 0px 4px 20px #00000029;
+}
+.footer {
+    background-color: #DE3F67;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+  
+    padding: 55px 50px;
+  }
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer .footer-left {
+    width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer h3 {
+    color: #ffffff;
+    font: normal 36px "Cookie", cursive;
+    margin: 0;
+  }
+  
+  .footer h3 span {
+    color: #5383d3;
+  }
+  
+  /* Footer links */
+  
+  .footer .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer .footer-center {
+    width: 35%;
+  }
+  
+  .footer .footer-center i {
+    background-color: #7BF1A8;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .footer .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer .footer-right {
+    width: 20%;
+  }
+  
+  .footer .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer .footer-icons {
+    margin-top: 25px;
+  }
+  
+  .footer .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  
+  @media (max-width: 880px) {
+    .footer {
+      font: bold 14px sans-serif;
+    }
+  
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer .footer-center i {
+      margin-left: 0;
+    }
+  }
+  
