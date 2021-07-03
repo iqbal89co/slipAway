@@ -5,11 +5,11 @@
     font-family: 'Poppins';
 }
 
-/* Login page */
+/* Login and registration page */
 .form-control:focus {
     text-decoration: none;
     border-color: none !important;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .form-control {
@@ -17,27 +17,27 @@
 }
 
 .cust-btn {
-    background-color: #FF85A3;
+    background-color: #006FFF;
     color: whitesmoke;
     border: none;
     transition: 0.4s;
 }
 
 .cust-btn:hover {
-    background-color: #DE3F67;
+    background-color: #0058CC;
     border: none;
     text-decoration: none;
 }
 
 .reg-link {
     text-decoration: none;
-    color: #FF85A3;
+    color: #006FFF;
     transition: 0.4s;
 }
 
 .reg-link:hover {
     text-decoration: none;
-    color: #DE3F67;
+    color: #0058CC;
 }
 
 /* Sing Up page */
@@ -46,5 +46,5 @@
 }
 
 .moon-txt {
-    color: #7BF1A8;
+    color: #0058CC;
 }
